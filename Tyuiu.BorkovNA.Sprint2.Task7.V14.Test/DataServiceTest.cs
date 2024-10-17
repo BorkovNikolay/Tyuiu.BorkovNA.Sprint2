@@ -8,7 +8,10 @@ namespace Tyuiu.BorkovNA.Sprint2.Task7.V14.Test
         [TestMethod]
         public void TestMethod1()
         {
-
+            int x = 1;
+            int y = -1;
+            DataService ds = new DataService();
+            Assert.AreEqual(false, ds.CheckDotInShadedArea(x, y));
         }
     }
 }
